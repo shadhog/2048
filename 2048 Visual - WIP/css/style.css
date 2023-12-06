@@ -5,7 +5,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,7 +95,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -23,21 +113,25 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after {
-  content: '';
+blockquote:before,
+blockquote:after {
+  content: "";
   content: none;
 }
 
-q:before, q:after {
-  content: '';
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -47,81 +141,6 @@ table {
 }
 
 /* \Reset CSS */
-
-/* Fonts */
-/*
-@font-face {
-    font-family: '888';
-    src: url('fonts/888-regular-webfont.eot');
-     src: url('fonts/888-regular-webfont.eot?#iefix') format('embedded-opentype'),  
-    url('fonts/888-regular-webfont.woff') format('woff'),
- url('fonts/888-regular-webfont.woff2') format('woff2'),
-    url('fonts/888-regular-webfont.ttf') format('truetype'),
-    url('fonts/888-regular-webfont.otf') format('opentype'), 
-    url('fonts/888-regular-webfont.svg') format('svg');
-    font-weight: normal;
-}
-@font-face {
-    font-family: '888';
-    src: url('fonts/888-demibold-webfont.eot');
-     src: url('fonts/888-demibold-webfont.eot?#iefix') format('embedded-opentype'),  
-    url('fonts/888-demibold-webfont.woff') format('woff'),
- url('fonts/888-demibold-webfont.woff2') format('woff2'),
-    url('fonts/888-demibold-webfont.ttf') format('truetype'),
-    url('fonts/888-demibold-webfont.otf') format('opentype'), 
-    url('fonts/888-demibold-webfont.svg') format('svg');
-    font-weight: 600;
-}
-@font-face {
-    font-family: '888';
-    src: url('fonts/888-bold-webfont.eot');
-     src: url('fonts/888-bold-webfont.eot?#iefix') format('embedded-opentype'),  
-    url('fonts/888-bold-webfont.woff') format('woff'),
- url('fonts/888-bold-webfont.woff2') format('woff2'),
-    url('fonts/888-bold-webfont.ttf') format('truetype'),
-    url('fonts/888-bold-webfont.otf') format('opentype'), 
-    url('fonts/888-bold-webfont.svg') format('svg');
-    font-weight: bold;
-}
-@font-face {
-    font-family: '888';
-    src: url('fonts/888-black-webfont.eot');
-     src: url('fonts/888-black-webfont.eot?#iefix') format('embedded-opentype'),  
-    url('fonts/888-black-webfont.woff') format('woff'),
- url('fonts/888-black-webfont.woff2') format('woff2'),
-    url('fonts/888-black-webfont.ttf') format('truetype'),
-    url('fonts/888-black-webfont.otf') format('opentype'), 
-    url('fonts/888-black-webfont.svg') format('svg');
-    font-weight: 900;
-}
-*/
-@font-face {
-    font-family: '888';
-    
-    src: 
-    url('../fonts/888-regular-webfont.woff') format('woff');
-    font-weight: normal;
-}
-@font-face {
-    font-family: '888';
-    src:   
-    url('../fonts/888-demibold-webfont.woff') format('woff');
-    font-weight: 600;
-}
-@font-face {
-    font-family: '888';
-     src:  
-    url('../fonts/888-bold-webfont.woff') format('woff');
-    font-weight: bold;
-}
-@font-face {
-    font-family: '888';
-     src:  
-    url('../fonts/888-ultra-webfont.woff') format('woff');
-    font-weight: 800;
-}
-/* Fonts */
-
 
 /* Initial */
 
@@ -229,7 +248,7 @@ table {
 
 body {
   background: #faf8ef;
-  font-family: '888', sans-serif;
+  font-family: sans-serif;
   color: #000000;
   font-weight: normal;
   font-size: 10px;
@@ -255,107 +274,105 @@ ul {
   margin: 0 auto;
 }
 
-
 /* Main CSS */
 
 .page {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 h1 {
-	font-size: 400%;
+  font-size: 400%;
 }
 
 #game {
-	text-align: center;
-	margin: 40px auto 0;
-	background: #bbada0;
-    border-radius: 8px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-	display: inline-block;
-	vertical-align: middle;
+  text-align: center;
+  margin: 40px auto 0;
+  background: #bbada0;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .game {
-	position: relative;
+  position: relative;
 }
 
 .game div {
-	position: absolute;
-	display: inline-block;
-	vertical-align: middle;
-	width: 100px;
-	height: 100px;
-	color: #776e65;
-	border-radius: 3px;
-	background: rgba(238, 228, 218, 0.35);
-	font-weight: 900;
-    font-size: 45px;
-    line-height: 100px;
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  color: #776e65;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35);
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100px;
 }
 
-
 div.t2 {
-	background: #eee4da;
+  background: #eee4da;
 }
 
 div.t4 {
-	background: #ede0c8;
+  background: #ede0c8;
 }
 
 div.t8 {
-	color: #f9f6f2;
-    background: #f2b179;
+  color: #f9f6f2;
+  background: #f2b179;
 }
 
 div.t16 {
-	color: #f9f6f2;
-    background: #f59563;
+  color: #f9f6f2;
+  background: #f59563;
 }
 
 div.t32 {
-	color: #f9f6f2;
-    background: #f67c5f;
+  color: #f9f6f2;
+  background: #f67c5f;
 }
 
 div.t64 {
-	color: #f9f6f2;
-    background: #f65e3b;
+  color: #f9f6f2;
+  background: #f65e3b;
 }
 
 div.t128 {
-	color: #f9f6f2;
-    background: #edcf72;
+  color: #f9f6f2;
+  background: #edcf72;
 }
 
 div.t256 {
-	color: #f9f6f2;
-    background: #edcc61;
+  color: #f9f6f2;
+  background: #edcc61;
 }
 
 div.t512 {
-	color: #f9f6f2;
-    background: #edc850;
+  color: #f9f6f2;
+  background: #edc850;
 }
 
 div.t1024 {
-	color: #f9f6f2;
-    background: #edc53f;
-	font-size: 30px;
-	box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+  color: #f9f6f2;
+  background: #edc53f;
+  font-size: 30px;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
 }
 
 div.t2048 {
-	color: #f9f6f2;
-    background: #edc22e;
-	font-size: 30px;
-	box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  color: #f9f6f2;
+  background: #edc22e;
+  font-size: 30px;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
 }
 
 div.t4096 {
-	color: #f9f6f2;
-    background: #3e3933;
-	font-size: 30px;
+  color: #f9f6f2;
+  background: #3e3933;
+  font-size: 30px;
 }
